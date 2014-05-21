@@ -18,13 +18,13 @@ setup(
     long_description=open(os.path.join(os.path.dirname(__file__), 'README.rst')).read(),
     author='David Lewis',
     author_email='meng.lewis@gmail.com',
-    url='https://github.com/menglewis/djangocms-bootstrap-grid',
+    url='https://github.com/menglewis/djangocms_bootstrap_grid',
     packages=['cmsplugin_bootstrap_grid'],
     include_package_data=True,
     install_requires=['Django-CMS>=3.0'],
     license='BSD',
     zip_safe=False,
-    keywords='djangocms-bootstrap-grid'
+    keywords='djangocms-bootstrap-grid',
     classifiers=[
         'Programming Language :: Python',
         'Programming Language :: Python :: 2.6',
@@ -35,6 +35,6 @@ setup(
         'Intended Audience :: Developers',
         'License :: OSI Approved :: BSD License',
         'Operating System :: OS Independent',
-        'Framework :: Django'
+        'Framework :: Django',
     ],
 )
